@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.CSS">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <section>    
+        <div class="texteC">
+        <h1>ENI - MEMORY - S'INSCRIRE</h1>
+        </div>
+   
+    <div class="texteC BOX2">
+<nav>
+<ul>
+    <li><a href="accueil.html">Accueil</a></li>
+    <li><a href="inscription.html">S'inscrire</a></li>
+    <li><a href="index.html">Se connecter</a></li>
+    <li><a href="profil.html">Profil</a></li>
+    <li><a href="jouer.html">Jouer</a></li>
+</ul>
+</nav>
+</div>
+</section>
+ <section>   
+    </header>
+    <section class="margH50 BOX">
+      
+        <div class="" >
+            <H2 class="texteC tailleT">Inscrivez-vous.<br>
+            <form id="user-form" class="texteG margH40">
+            
+                    <label for="name">Nom d'utilisateur&nbsp;:</label>
+                    <input type="text" id="name" name="user_name" />
+               
+                    <label for="mail">Entrez votre E-mail&nbsp;:</label>
+                 
+                <input type="text" id="field1" name="field1 pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="Entrez une adresse e-mail valide." required/>
+
+                <label for="mdp">Mot de passe&nbsp;:</label>
+                <input type="text" id="field2" name="field2" pattern="(?=.*\d)(?=.*[A-Z])(?=.*\W).{8,}" title="Le mot de passe doit contenir au moins 8 caractères, dont au moins un chiffre, une majuscule et un symbole." required/>
+                 
+                <label for="cmdp">Confirmez le mot de passe&nbsp;:</label>
+                <input type="text" id="field2" name="field2" pattern="(?=.*\d)(?=.*[A-Z])(?=.*\W).{8,}" title="Le mot de passe doit contenir au moins 8 caractères, dont au moins un chiffre, une majuscule et un symbole." required/>
+               <br >
+               <div class="margH10">
+            <button type="submit">Création du compte</button>
+            <button type="button" class="cancel"><a href="index.html">Annuler</a></button>
+            </div>
+
+          </form>
+        </div>
+    </section>
+</body>
+</html>
