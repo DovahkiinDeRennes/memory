@@ -1,192 +1,240 @@
+/*---------------------------------------------------------*/
+/*--------------------------PAGES--------------------------*/
+/*---------------------------------------------------------*/
+
 body {
-    
-    display: flex;
-        flex-direction: column;
-  justify-content: center;
-background-image: url("IMG\\1.png");
-    background-size: cover;
-    /* Ajuste la taille de l'image pour couvrir tout le fond */
-    background-position: center;
-    /* Centre l'image dans le fond */
-    background-repeat: no-repeat;
-    /* Empêche la répétition de l'image */
-    height: 1000px;
-    
-       
+  display: flex;
+  flex-direction: column;
+  background-image: url("IMG\\1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1100px;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul {
-    list-style-type: none;
-   
-    
+  list-style-type: none;
 }
 
 nav li {
-    display: inline-block;
-    margin-right: 15px; 
-    
-    
-  
+  display: inline-block;
+  margin-right: 15px;
 }
 
 nav a {
-    text-decoration: none;
-    padding: 11px ;
-    font-size: 25px;
-    border-radius: 5px;
-    color: rgb(255, 255, 255);
-    justify-content: space-around;
+  text-decoration: none;
+  padding: 11px;
+  font-size: 25px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  justify-content: space-around;
 }
 
 nav a:hover {
-background-color: rgb(102, 0, 51);
+  background-color: rgb(102, 0, 51);
 }
 
-.margH5{
-
-    margin-top: 50px;
-
-}
-.paraju {
-    text-align: justify;
-
-}
-.BOX{
-    width: 700px;
-    height: 600px;
-   /* border: 1px solid rgb(151, 11, 11); */
-    margin: 0 auto;
-        margin-top: 30px;
-        padding: 10px;
-        border-radius: 10px;
-        background: linear-gradient(to bottom right, #ffcccc94 33%, #cc66997c 76%);
-}
-.BOX2 {
-    width: 700px;
-    
-    /* border: 1px solid rgb(11, 151, 144); */
-    margin: 0 auto;
-    margin-top: 30px;
-    padding: 10px;
-    border-radius: 10px;
-    background: linear-gradient(to bottom right, #ffcccc 33%, #cc6699 76%);
-  
-    /* background: linear-gradient(to top left, #ff9900 0%, #ffffcc 50%); */
-}
-
-.texteG{
-    text-align: left;
-}
-.texteC{
-    text-align: center;
-}
-
-
-
-.container {
-    text-align: center;
-}
-
-.container img {
-   
-    max-width: 100%;
-    height: auto;
-}
 label {
-    display: flex;
-    width: 400px;
-    text-align: left;
-    font-size: 30px;
-    
-    
+  display: flex;
+  width: 400px;
+  text-align: left;
+  font-size: 30px;
 }
+
 ul li {
-
-    list-style-type: none;
+  list-style-type: none;
 }
-
 
 td {
-    background-color: rgba(102, 0, 51, 0.199);
-   
+  background-color: rgba(102, 0, 51, 0.199);
 }
+
 th {
-    background-color: rgba(102, 0, 51, 0.199);
+  background-color: rgba(102, 0, 51, 0.199);
 }
 
-table{
-   text-align: center;
-width: 500px;
-margin: 0 auto;
-border-spacing: 5px;
-}
-h1{
-font-size: 3em;
-color: #f5f5f5;
-font-weight: bold;
-text-shadow: 2px 2px 4px rgb(0, 0, 0);
-
+table {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  border-spacing: 5px;
+  border-collapse: collapse;
 }
 
-
-.borderspacing10{
-    border-spacing: 10px;
+h1 {
+  font-size: 3em;
+  color: #f5f5f5;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
-.tailleT{
-font-size: 2em;
-
-}
- div{
-    color: #ffffff;
-    font-family: 'Arial', sans-serif;
-    text-shadow: 2px 2px 4px rgb(0, 0, 0);
-
+div {
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
-input{
-    border: none;
-    background-color: #cc66994b;
-    color: #ffffff;
-    width: 450px;
+input {
+  border: none;
+  background-color: #cc66994b;
+  color: #ffffff;
+  width: 450px;
 }
 
-button{
-    display: inline;
-    color: #ffffff;
-   border: 1px solid rgb(151, 11, 109);
-    border-radius: 5px;
-    background-color: #cc6699;
+button {
+  display: inline;
+  color: #ffffff;
+  border: 1px solid #cc6699;
+  border-radius: 5px;
+  background-color: #cc6699;
 }
-button a{
-    
-    color: #ffffff;
-    background-color: #cc6699;
-    text-decoration: none;
+
+button a {
+  color: #ffffff;
+  background-color: #cc6699;
+  text-decoration: none;
 }
+
 button:hover {
-    background-color: rgb(102, 0, 51);
+  background-color: rgb(102, 0, 51);
 }
+
 button a:hover {
-    background-color: rgb(102, 0, 51);
+  background-color: rgb(102, 0, 51);
 }
 
-.margH10{
-    margin-top: 10px;
+select {
+  border: none;
+  background-color: #cc66994b;
+  color: #ffffff;
+  width: 450px;
 }
-.margH40 {
-    margin-top: 40px;
+
+/*---------------------------------------------------------*/
+/*------------------------STYLE (class) -------------------*/
+/*---------------------------------------------------------*/
+
+.margH10 {
+  margin-top: 10px;
 }
+
 .margH30 {
-    margin-top: 30px;
-}
-select{
-    border: none;
-        background-color: #cc66994b;
-        color: #ffffff;
-            width: 450px;
+  margin-top: 30px;
 }
 
+.margH40 {
+  margin-top: 40px;
+}
 
+.margH-30 {
+  margin-top: -20px;
+}
 
+.paraju {
+  text-align: justify;
+}
+.texteG {
+  text-align: left;
+}
 
+.texteC {
+  text-align: center;
+}
+
+.tailleT {
+  font-size: 2em;
+}
+
+.tailleT2 {
+  font-size: 1.5em;
+}
+
+.CENTRAGEimg {
+  text-align: center;
+}
+
+.CENTRAGEimg img {
+  max-width: 100%;
+  height: auto;
+}
+
+.espaceL1{
+  line-height: 35px;
+}
+
+.espaceL2{
+  line-height: 30px;
+}
+
+/*---------------------------------------------------------*/
+/*-------------------------- BOX --------------------------*/
+/*---------------------------------------------------------*/
+
+.BOXheader {
+  width: 700px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom right, #ffcccc 33%, #cc6699 76%);
+}
+
+.BOXintjeu {
+  width: 700px;
+  height: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom right, #ffcccc 33%, #cc6699 76%);
+}
+
+.BOXprofil {
+  width: 700px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom right, #ffcccc94 33%, #cc66997c 76%);
+}
+
+.BOXjouer {
+  width: 700px;
+  height: 760px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom right, #ffcccc94 33%, #cc66997c 76%);
+}
+
+.BOXinscription {
+  width: 700px;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom right, #ffcccc94 33%, #cc66997c 76%);
+}
+
+.BOXindex {
+  width: 700px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom right, #ffcccc94 33%, #cc66997c 76%);
+}
+
+.BOXaccueil {
+  width: 700px;
+  height: 650px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom right, #ffcccc94 33%, #cc66997c 76%);
+}

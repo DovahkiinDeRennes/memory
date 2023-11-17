@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.CSS">
+    <link rel="stylesheet" href="jeu.CSS">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <section>
+            <div class="texteC">
+                <h1>ENI - MEMORY - JOUER</h1>
+            </div>
+            <div class="texteC BOXheader">
+                <nav>
+                    <ul class="">
+                        <li><a href="accueil.html">Accueil</a></li>
+                        <li><a href="inscription.html">S'inscrire</a></li>
+                        <li><a href="index.html">Se connecter</a></li>
+                        <li><a href="profil.html">Profil</a></li>
+                        <li><a href="jouer.html">Jouer</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </header>
+
+    <section class="BOXjouer">
+        <div class="">
+            <div class="">
+                <table class="">
+                    <tr>
+                        <th>Pseudo</th>
+                        <th>Score</th>
+                        <th>Taille</th>
+                        <th>Choix Memory</th>
+                        <th>Date</th>
+                    </tr>
+                    <tr>
+                        <td>JE</td>
+                        <td>SUIS</td>
+                        <td>TROP</td>
+                        <td>NUL</td>
+                        <td>EN</td>
+                    </tr>
+                    <tr>
+                        <td>JAVASCRIPT</td>
+                        <td>,</td>
+                        <td>HEURESEMENT</td>
+                        <td>QUE</td>
+                        <td>MON</td>
+                    </tr>
+                    <tr>
+                        <td>AMIS</td>
+                        <td>CHAPgpt</td>
+                        <td>EST</td>
+                        <td>LA</td>
+                        <td>!</td>
+                    </tr>
+                    <tr>
+                        <td>ALLEZ</td>
+                        <td>VOICI</td>
+                        <td>MON</td>
+                        <td>JEU</td>
+                        <td>FAIT</td>
+                    </tr>
+                    <tr>
+                        <td>AVEC</td>
+                        <td>AMOURS</td>
+                        <td>ET</td>
+                        <td>TENDRESSE</td>
+                        <td>!</td>
+                    </tr>
+
+                </table>
+            </div>
+            <p class="texteC">Tentez de gagner avec le moins d'essaie possible. <br>
+                Appuyez sur la <b>barre d'espace</b> pour relancer le jeu.<br>
+            <p id="compteurTentatives" class="Agrand">Tentatives : 0</p>
+            </p>
+
+
+
+            <section class="jeu BOXintjeu">
+
+
+                <div class="carte" id="1">
+                    <img class="face-avant" src="IMG\alphabet-scrabble\1.png" alt="1">
+                    <div class="face-arriere"> <img src="IMG\\kawaii2.png" alt=""></div>
+                </div>
+
+                <div class="carte" id="1">
+                    <img class="face-avant" src="IMG\alphabet-scrabble\1.png" alt="1">
+                    <div class="face-arriere"> <img src="IMG\\kawaii2.png" alt=""></div>
+                </div>
+
+                <div class="carte" id="2">
+                    <img class="face-avant" src="IMG\alphabet-scrabble\2.png" alt="2">
+                    <div class="face-arriere"> <img src="IMG\\kawaii2.png" alt=""></div>
+                </div>
+
+                <div class="carte" id="2">
+                    <img class="face-avant" src="IMG\alphabet-scrabble\2.png" alt="2">
+                    <div class="face-arriere"> <img src="IMG\\kawaii2.png" alt=""></div>
+                </div>
+
+                <div class="carte" id="3">
+                    <img class="face-avant" src="IMG\alphabet-scrabble\3.png" alt="3">
+                    <div class="face-arriere"> <img src="IMG\\kawaii2.png" alt=""></div>
+                </div>
+
+                <div class="carte" id="3">
+                    <img class="face-avant" src="IMG\alphabet-scrabble\3.png" alt="3">
+                    <div class="face-arriere"> <img src="IMG\\kawaii2.png" alt=""></div>
+                </div>
+
+                <div class="carte" id="4">
+                    <img class="face-avant" src="IMG\alphabet-scrabble\4.png" alt="4">
+                    <div class="face-arriere"> <img src="IMG\\kawaii2.png" alt=""></div>
+                </div>
+
+                <div class="carte" id="4">
+                    <img class="face-avant" src="IMG\alphabet-scrabble\4.png" alt="4">
+                    <div class="face-arriere"> <img src="IMG\\kawaii2.png" alt=""></div>
+                </div>
+
+                <div class="carte" id="5">
+                    <img class="face-avant" src="IMG\alphabet-scrabble\5.png" alt="5">
+                    <div class="face-arriere"> <img src="IMG\\kawaii2.png" alt=""></div>
+                </div>
+
+                <div class="carte" id="5">
+                    <img class="face-avant" src="IMG\alphabet-scrabble\5.png" alt="5">
+                    <div class="face-arriere"> <img src="IMG\\kawaii2.png" alt=""></div>
+                </div>
+
+                <div class="carte" id="6">
+                    <img class="face-avant" src="IMG\alphabet-scrabble\6.png" alt="6">
+                    <div class="face-arriere"> <img src="IMG\\kawaii2.png" alt=""></div>
+                </div>
+
+                <div class="carte" id="6">
+                    <img class="face-avant " src="IMG\alphabet-scrabble\6.png" alt="6">
+                    <div class="face-arriere"> <img src="IMG\\kawaii2.png" alt=""></div>
+                </div>
+
+            </section>
+
+            <div class="finDuJeu">
+                <h1>Bravo tu as gagné !</h1>
+                <a href="jouer.html"><button id="boutonfin">Rejouer</button></a>
+                <a href="index.html"><button id="boutonquitter">Quitter</button></a>
+
+            </div>
+
+
+    </section>
+    <script type="module" src="js/app.js"></script>
+    <script type="module" src="js/jeu.js"></script>
+</body>
+
+</html>
